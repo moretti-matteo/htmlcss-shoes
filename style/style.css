@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    position:fixed;
+    right:25px;
+    top:25px;
+    z-index: 10;
+}
+
+header span{
+    background-color: #fff;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: auto 10px;
+}
+
+header span a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+}
+
+.product{
+    height: 100vh;
+    position: relative;
+}
+
+#product-1{
+    background-color: red;
+}
+
+#product-2{
+    background-color: green;
+}
+
+#product-3{
+    background-color: yellow;
+}
+.shoe img{
+    object-fit: cover;
+}
+
+.shoe{
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+.yellow-text{
+    color:yellow;
+}
+
+.green-text{
+    color:green;
+}
